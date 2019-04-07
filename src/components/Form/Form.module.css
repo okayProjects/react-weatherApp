@@ -1,0 +1,26 @@
+.Form {
+   margin: 50px 0 100px;
+   flex-basis: 100%;
+   display: flex;
+   justify-content: center;
+   
+}
+
+.Input, .Button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid rgb(248, 181, 56);
+    font-size: 20px;
+}
+
+.Button {
+    cursor: pointer;
+    background-color: #000000;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.Button:hover {
+    color: #000000;
+    background-color: aliceblue;
+}
