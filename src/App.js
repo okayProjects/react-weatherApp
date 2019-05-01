@@ -35,7 +35,7 @@ class App extends Component {
       fetch(API)
         .then(res => {
           if (res.ok) return res;
-          throw Error('O cholera');
+          throw Error('Uuuuuups, it happened again!');
         })
         .then(res => res.json())
         .then(data => {

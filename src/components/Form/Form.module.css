@@ -1,19 +1,30 @@
 .Form {
-   margin: 50px 0 100px;
+   position: absolute;
+   left: 50%;
+   top: 12%;
+   transform: translate(-50%,0);
    flex-basis: 100%;
    display: flex;
    justify-content: center;
-   
 }
 
-.Input, .Button {
+.Input {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid rgb(248, 181, 56);
+    font-size: 20px;  
+}
+
+
+/* .Button {
     padding: 10px 20px;
     margin: 10px;
     border: 2px solid rgb(248, 181, 56);
     font-size: 20px;
-}
+    
+} */
 
-.Button {
+/* .Button {
     cursor: pointer;
     background-color: #000000;
     color: aliceblue;
@@ -23,4 +34,10 @@
 .Button:hover {
     color: #000000;
     background-color: aliceblue;
+} */
+
+@media(max-width: 1024px) {    
+     .Input {
+         font-size: 17px;  
+     }
 }

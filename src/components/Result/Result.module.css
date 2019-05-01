@@ -1,0 +1,47 @@
+h2 {
+    margin-bottom: 40px;
+}
+h4 i {
+    font-size: 30px;
+    padding: 0 30px;
+}
+
+h4:first-of-type i {
+    color: yellow;
+}
+h4:nth-of-type(2) i {
+    color: tomato;
+}
+h4:nth-of-type(3) i {
+    color: blueviolet;
+}
+h4:nth-of-type(4) i {
+    color: rosybrown;
+}
+h4:last-of-type i {
+    color: olivedrab;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+span {
+    text-transform: capitalize;
+}
+
+@media(max-width: 1024px) {
+    h4 i {
+        font-size: 25px;
+        padding: 0 15px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    h2 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
