@@ -11,7 +11,6 @@ const From = props => {
         //     <input className={style.Input} onChange={props.inputChange} type='text' value={props.inputValue} placeholder='Type in the city' />
         //     <button className={style.Button}>Search your city</button>
         // </form>
-
     );
 }
 
