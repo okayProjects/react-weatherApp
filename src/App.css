@@ -6,10 +6,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: khaki;
+  background-color: rgb(221, 217, 182);
   width: 100vw;
   height: 100vh;
-  background-color: peru;
 }
 
 
