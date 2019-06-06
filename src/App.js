@@ -30,7 +30,7 @@ class App extends Component {
     if (this.state.inputValue.length < 3) return;
 
     if (prevState.inputValue !== this.state.inputValue) {
-      const API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.inputValue}&APPID=${this.APIkey}&units=metric`;
+      const API = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.inputValue}&units=metric&APPID=${this.APIkey}`;
 
       fetch(API)
         .then(res => {
