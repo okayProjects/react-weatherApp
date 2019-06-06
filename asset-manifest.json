@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-weatherApp/./static/css/main.5e230f8f.chunk.css",
+    "main.js": "/react-weatherApp/./static/js/main.73869631.chunk.js",
+    "main.js.map": "/react-weatherApp/./static/js/main.73869631.chunk.js.map",
+    "runtime~main.js": "/react-weatherApp/./static/js/runtime~main.45aff06b.js",
+    "runtime~main.js.map": "/react-weatherApp/./static/js/runtime~main.45aff06b.js.map",
+    "static/js/2.650383ae.chunk.js": "/react-weatherApp/./static/js/2.650383ae.chunk.js",
+    "static/js/2.650383ae.chunk.js.map": "/react-weatherApp/./static/js/2.650383ae.chunk.js.map",
+    "index.html": "/react-weatherApp/./index.html",
+    "precache-manifest.15a5701931757adba56640255b57aa8f.js": "/react-weatherApp/./precache-manifest.15a5701931757adba56640255b57aa8f.js",
+    "service-worker.js": "/react-weatherApp/./service-worker.js",
+    "static/css/main.5e230f8f.chunk.css.map": "/react-weatherApp/./static/css/main.5e230f8f.chunk.css.map",
+    "static/media/App.css": "/react-weatherApp/./static/media/clouds.2c39b066.jpg"
+  }
+}
